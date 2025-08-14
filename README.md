@@ -7,7 +7,7 @@ on:
 
 jobs:
   docker:
-    name: 🔧 Build & Push Docker Imag
+    name: 🔧 Build & Push Docker Image
     runs-on: ubuntu-latest
 
     steps:
