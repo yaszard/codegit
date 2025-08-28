@@ -20,7 +20,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: 🏗 Build Docker imag
+    - name: 🏗 Build Docker image
       run: |
         docker build -t ${{ secrets.DOCKER_USERNAME }}/my-app:latest .
 
